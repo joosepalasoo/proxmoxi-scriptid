@@ -27,9 +27,9 @@ Bash skript Proxmox VE SDN (Software Defined Networking) võrkude automaatseks l
 
 ```bash
 # Laadi skript alla või kopeeri see serverisse
-cd /root
-nano setup-network.sh
-# Kopeeri skripti sisu, salvesta ja sulge
+git clone https://github.com/joosepalasoo/proxmoxi-scriptid.git
+cd /proxmoxi-scriptid
+# Anna failile vastavda õigused 
 
 chmod +x setup-network.sh
 ```
