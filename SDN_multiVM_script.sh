@@ -111,7 +111,7 @@ echo "2) Batch mode (CSV import)"
 read -p "Enter choice (1 or 2): " MODE
 
 if [[ "$MODE" == "1" ]]; then
-    # INTERACTIVE MODE
+    # INTERAKTIIVNE ASI
     echo ""
     echo "--- Interactive Mode ---"
    
@@ -156,7 +156,7 @@ if [[ "$MODE" == "1" ]]; then
     create_subnet "$SUBNET_ID" "$VMID"
    
 elif [[ "$MODE" == "2" ]]; then
-    # BATCH MODE (CSV)
+    # CSV FAILI KASUTUS
     echo ""
     echo "--- Batch Mode (CSV Import) ---"
    
@@ -248,7 +248,7 @@ else
     exit 1
 fi
 
-# Apply SDN configuration
+# LISAB KONFIGURATSIOONI
 echo "========================================="
 echo "Applying SDN configuration..."
 pvesh set /cluster/sdn
@@ -257,3 +257,4 @@ echo ""
 echo "========================================="
 echo "✓ All done! Network configuration complete."
 echo "========================================="
+
